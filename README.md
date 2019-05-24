@@ -7,7 +7,7 @@ Date	: May 2019
 
 ## INTRODUCTION
 
-(screenshots/screen_customerList.png)
+![screen_customerList](screenshots/screen_customerList.png)
 
 This is a full-stack demo application showcasing a frontend built with Vue.js and a backend built with Spring Boot and a MySQL database.
 
@@ -24,23 +24,23 @@ The company can also make notes for each customer. A customer can have any numbe
 The user is able to:
 - Filter and sort the list of customers.
 
-(screenshots/screen_filter.png)
+![screen_filter](screenshots/screen_filter.png)
 
-(screenshots/screen_sort.png)
+![screen_sort](screenshots/screen_sort.png)
 
 - Click on a customer in the list to view their details and add/edit notes for that customer.
 
-(screenshots/screen_confirm_edit.png)
+![screen_confirm_edit](screenshots/screen_confirm_edit.png)
 
-(screenshots/screen_add_note.png)
+![screen_add_note](screenshots/screen_add_note.png)
 
-(screenshots/screen_update_note.png)
+![screen_update_note](screenshots/screen_update_note.png)
 
-(screenshots/screen_delete_note.png)
+![screen_delete_note](screenshots/screen_delete_note.png)
 
 - Change their status.
 
-(screenshots/screen_change_status.png)
+![screen_change_status](screenshots/screen_change_status.png)
 
 
 ## PROJECT SETUP
