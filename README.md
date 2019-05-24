@@ -53,13 +53,13 @@ The user is able to:
 
 ```
 customer_demo
-├─┬ backend			→ backend module with Spring Boot code
+├─┬ backend      → backend module with Spring Boot code
 │ ├── src
 │ └── pom.xml
-├─┬ frontend		→ frontend module with Vue.js code
+├─┬ frontend     → frontend module with Vue.js code
 │ ├── src
-├── init			→ scripts to initialize the database
-├── README.md		→ this file
+├── init         → scripts to initialize the database
+├── README.md    → this file
 ```
 
 ## PREREQUISITES FOR BUILD
@@ -164,9 +164,9 @@ Due to demo purpose a quick prototyping approach is used for developing this app
 - Better unit test cases design
 - Swagger for RESTful APIs
 - User Authentication	(OAuth, JWT..etc)
-- Software hardening	(Prevention for vulnerability)
+- Software hardening	(Prevention for vulnerability, TLS support)
 - Optimization for performance (Balance between frontend/backend workload)
 - Better input validations
 - Support for containerization
 - Better logging and audit trails
-...and many others.
+- and many others.
