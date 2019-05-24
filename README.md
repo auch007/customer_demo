@@ -22,29 +22,35 @@ Customers have the following information associated with them:
 The company can also make notes for each customer. A customer can have any number of notes associated with them.
 
 The user is able to:
-- Filter and sort the list of customers.
+- Filter the list of customers.
 
 ![screen_filter](screenshots/screen_filter.png)
 
+- Sort the list of customers.
 
 ![screen_sort](screenshots/screen_sort.png)
 
 
 - Click on a customer in the list to view their details and add/edit notes for that customer.
 
+- Confirm to edit
+
 ![screen_confirm_edit](screenshots/screen_confirm_edit.png)
 
+- Add new note
 
 ![screen_add_note](screenshots/screen_add_note.png)
 
+- Update note
 
 ![screen_update_note](screenshots/screen_update_note.png)
 
+- Delete note
 
 ![screen_delete_note](screenshots/screen_delete_note.png)
 
 
-- Change their status.
+- Change their status
 
 ![screen_change_status](screenshots/screen_change_status.png)
 
@@ -128,7 +134,8 @@ The following packages are required for building the app:
 	NOTE This is an important step to combine the two frameworks together to work
 				
 	Due to the long build time for installing the node modules and such, if you want to skip this step, 
-	the compiled JS code is already checked into the "public" folder of the backend source code. You may skip this part entirely.
+	the compiled JS code is already checked into the "public" folder of the backend source code. 
+	You may skip this part entirely.
 			
 
 ### 4. Backend App Build
