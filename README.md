@@ -173,13 +173,15 @@ The following packages are required for building the app:
 
 Due to demo purpose a quick prototyping approach is used for developing this app. This app can only be considered minimally viable (or not!). The following areas can be further improved:
 
-- Better UI/UX design
+- Better UI/UX design (Responsive Web Design is already supported)
+- SPA enhancements (router guard, more robust state management, PWA...etc)
 - Better unit test cases design
 - Swagger for RESTful APIs
 - User authentication	(OAuth, JWT...etc)
 - Software hardening	(prevention for vulnerability, TLS support)
 - Optimization for performance (balance between frontend/backend workload)
 - Better input validations
+- Better support for CI/CD
 - Support for containerization
 - Better logging and audit trails
 - and many others
