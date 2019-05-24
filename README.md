@@ -11,6 +11,10 @@ Date	: May 2019
 
 This is a full-stack demo application showcasing a frontend built with Vue.js and a backend built with Spring Boot and a MySQL database.
 
+In this classic 3-tier application architecture, the frontend is communicating to the backend with RESTful APIs and data persistence is achieved with use of JPA.
+
+With a SPA frontend, some of the workload is shifted to the frontend to minimize data usage and to boost performance.
+
 This illustrates an application that allows a company to see their customer information.
 
 Customers have the following information associated with them:
