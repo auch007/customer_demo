@@ -7,6 +7,8 @@ Date	: May 2019
 
 ## INTRODUCTION
 
+(screenshots/screen_customerList.png)
+
 This is a full-stack demo application showcasing a frontend built with Vue.js and a backend built with Spring Boot and a MySQL database.
 
 This illustrates an application that allows a company to see their customer information.
@@ -21,21 +23,37 @@ The company can also make notes for each customer. A customer can have any numbe
 
 The user is able to:
 - Filter and sort the list of customers.
+
+(screenshots/screen_filter.png)
+
+(screenshots/screen_sort.png)
+
 - Click on a customer in the list to view their details and add/edit notes for that customer.
+
+(screenshots/screen_confirm_edit.png)
+
+(screenshots/screen_add_note.png)
+
+(screenshots/screen_update_note.png)
+
+(screenshots/screen_delete_note.png)
+
 - Change their status.
+
+(screenshots/screen_change_status.png)
 
 
 ## PROJECT SETUP
 
 ```
 customer_demo
-├─┬ backend     	→ backend module with Spring Boot code
+├─┬ backend			→ backend module with Spring Boot code
 │ ├── src
 │ └── pom.xml
-├─┬ frontend    	→ frontend module with Vue.js code
+├─┬ frontend		→ frontend module with Vue.js code
 │ ├── src
-├── init	    	→ scripts to initialize the database
-├── README.md	    → this file
+├── init			→ scripts to initialize the database
+├── README.md		→ this file
 ```
 
 ## PREREQUISITES FOR BUILD
@@ -80,7 +98,7 @@ The following packages are required for building the app:
 		
 		/customer_demo/backend/pom.xml
 		
-			<version>1.0.0</version>
+		<version>1.0.0</version>
 
 			
 ### 3. Frontend App Build (Optional)
@@ -101,9 +119,10 @@ The following packages are required for building the app:
 			
 			cp -R /customer_demo/frontend/dist /customer_demo/backend/src/main/resources/public
 			
-			NOTE This is an important step to combine the two frameworks together to work
+	NOTE This is an important step to combine the two frameworks together to work
 				
-			Due to the long build time for installing the node modules and such, if you want to skip this step, the compiled JS code is already checked into the "public" folder of the backend source code. You may skip this part entirely.
+	Due to the long build time for installing the node modules and such, if you want to skip this step, 
+	the compiled JS code is already checked into the "public" folder of the backend source code. You may skip this part entirely.
 			
 
 ### 4. Backend App Build
