@@ -177,7 +177,7 @@ Due to demo purpose a quick prototyping approach is used for developing this app
 - SPA enhancements (router guard, more robust state management, PWA...etc)
 - Better unit test cases design
 - Swagger for RESTful APIs
-- User authentication	(OAuth, JWT...etc)
+- User authentication	(OAuth2, JWT...etc)
 - Software hardening	(prevention for vulnerability, TLS support)
 - Optimization for performance (balance between frontend/backend workload)
 - Better client-side/server-side validations
