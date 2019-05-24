@@ -170,10 +170,10 @@ Due to demo purpose a quick prototyping approach is used for developing this app
 - Better UI/UX design
 - Better unit test cases design
 - Swagger for RESTful APIs
-- User Authentication	(OAuth, JWT..etc)
-- Software hardening	(Prevention for vulnerability, TLS support)
-- Optimization for performance (Balance between frontend/backend workload)
+- User authentication	(OAuth, JWT...etc)
+- Software hardening	(prevention for vulnerability, TLS support)
+- Optimization for performance (balance between frontend/backend workload)
 - Better input validations
 - Support for containerization
 - Better logging and audit trails
-- and many others.
+- and many others
