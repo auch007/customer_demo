@@ -23,6 +23,11 @@ export default new Router({
       path: '/viewCustomer',
       name: 'viewCustomer',
       component: () => import('./views/ViewCustomer.vue')
+    },
+    {
+      path: '*',
+      name: 'pageNotFound',
+      component: () => import('./views/PageNotFound.vue')
     }    
   ]
 })
