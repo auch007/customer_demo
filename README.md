@@ -4,6 +4,8 @@ Author	: Au, Cheong Hang (auch007@gmail.com)
 
 Date	: May 2019	
 
+Try the Demo on Google Cloud: http://http://34.87.94.30:8080/
+
 
 ## INTRODUCTION
 
