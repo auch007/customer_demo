@@ -135,6 +135,7 @@ export default {
       axios.post(this.$baseURL + '/customerNote', req)
       .then(resp => {
         this.addCustNote(resp.data)
+        this.newNote = ""
         this.$bvToast.toast('New note is added', {
           title: 'Notification',
           autoHideDelay: 8000,
