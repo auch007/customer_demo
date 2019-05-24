@@ -180,7 +180,7 @@ Due to demo purpose a quick prototyping approach is used for developing this app
 - User authentication	(OAuth, JWT...etc)
 - Software hardening	(prevention for vulnerability, TLS support)
 - Optimization for performance (balance between frontend/backend workload)
-- Better input validations
+- Better client-side/server-side validations
 - Better support for CI/CD
 - Support for containerization
 - Better logging and audit trails
