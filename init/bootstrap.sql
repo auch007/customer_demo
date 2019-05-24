@@ -1,4 +1,6 @@
 CREATE DATABASE IF NOT EXISTS company_db CHARACTER SET utf8;
+-- GRANT ALL PRIVILEGES ON company_db.* to dbuser@localhost;
+-- FLUSH PRIVILEGES;
 
 CREATE TABLE IF NOT EXISTS ta_cust_stus (
 	stus_cod VARCHAR(1) NOT NULL PRIMARY KEY,
