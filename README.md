@@ -141,7 +141,7 @@ The following packages are required for building the app:
 				
 	Due to the long build time for installing the node modules and such, if you want to skip this step, 
 	the compiled JS code is already checked into the "public" folder of the backend source code. 
-	You may skip this part entirely.
+	You may skip this part entirely if you have not modified the frontend code.
 			
 
 ### 4. Backend App Build
