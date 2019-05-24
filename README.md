@@ -4,6 +4,7 @@ Author	: Au, Cheong Hang (auch007@gmail.com)
 
 Date	: May 2019	
 
+
 ## INTRODUCTION
 
 This is a full-stack demo application showcasing a frontend built with Vue.js and a backend built with Spring Boot and a MySQL database.
@@ -22,6 +23,7 @@ The user is able to:
 - Filter and sort the list of customers.
 - Click on a customer in the list to view their details and add/edit notes for that customer.
 - Change their status.
+
 
 ## PROJECT SETUP
 
@@ -68,21 +70,19 @@ The following packages are required for building the app:
 	
 		/customer_demo/backend/src/main/resources/application.properties
 	
-		```
 		For example,	
 			## MySQL
 			spring.datasource.url=jdbc:mysql://192.168.56.101:3306/company_db
 			spring.datasource.username=dbuser
 			spring.datasource.password=password
-		```
 
 	2.2. You can change the build version at
 		
 		/customer_demo/backend/pom.xml
-		```
+		
 			<version>1.0.0</version>
-		```
 
+			
 ### 3. Frontend App Build (Optional)
 	
 	3.1 Create a Vue project with the following features
@@ -93,18 +93,18 @@ The following packages are required for building the app:
 	3.2 Incorporate the source code in folder "frontend" into the newly created Vue project
 
 	3.3 Build the frontend app with NPM
-			```
+			
 			npm run build
-			```
+			
 
 	3.4 Copy the frontend build artifact in "dist" folder to backend "public" folder for integration between Vue.js and Spring Boot
-			```
+			
 			cp -R /customer_demo/frontend/dist /customer_demo/backend/src/main/resources/public
 			
 			NOTE This is an important step to combine the two frameworks together to work
 				
 			Due to the long build time for installing the node modules and such, if you want to skip this step, the compiled JS code is already checked into the "public" folder of the backend source code. You may skip this part entirely.
-			```
+			
 
 ### 4. Backend App Build
 	
@@ -113,21 +113,23 @@ The following packages are required for building the app:
 		/customer_demo/backend/src/main/resources/public
 	
 	4.2 Compile, test and package the app with Maven
-			```
+			
 			mvn compile
 			mvn package
-			```
+			
 
 	4.3 After a successful Maven build, the final artifact is located at 
 	
 		/customer_demo/backend/target/customer_demo_app-1.0.0.jar
 
+		
 ### 5. Start up the server with
-	```
+	
 	java -jar customer_demo_app-1.0.0.jar | tee customer_demo_app.log
-	```
+	
 
 ### 6. The web service will be available at HTTP port 8080.
+
 
 ## AREAS FOR IMPROVEMENT
 
