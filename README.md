@@ -183,5 +183,6 @@ Due to demo purpose a quick prototyping approach is used for developing this app
 - Better client-side/server-side validations
 - Better support for CI/CD
 - Support for containerization
+- Better error handling
 - Better logging and audit trails
 - and many others
