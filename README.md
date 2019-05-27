@@ -79,8 +79,7 @@ customer_demo
 The following packages are required for building the app:
 - Maven
 - Node.js and NPM
-- Vue CLI
-- Other node modules
+- Node modules (package.json)
 	- bootstrap vue
 	- axios
 	- moment
