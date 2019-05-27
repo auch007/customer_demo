@@ -120,20 +120,14 @@ The following packages are required for building the app:
 
 			
 ### 3. Frontend App Build (Optional)
-	
-	3.1 Create a Vue project with the following features
-		- Babel
-		- Router
-		- Vuex
 
-	3.2 Incorporate the source code in folder "frontend" into the newly created Vue project
-
-	3.3 Build the frontend app with NPM
+	3.1 Build the frontend app with NPM
 			
+			npm install
 			npm run build
 			
 
-	3.4 Copy the frontend build artifact in "dist" folder to backend "public" folder for integration between Vue.js and Spring Boot
+	3.2 Copy the frontend build artifact in "dist" folder to backend "public" folder for integration between Vue.js and Spring Boot
 			
 			cp -R /customer_demo/frontend/dist /customer_demo/backend/src/main/resources/public
 			
