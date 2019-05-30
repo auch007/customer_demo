@@ -129,7 +129,7 @@ The following packages are required for building the app:
 
 	3.2 Copy the frontend build artifact in "dist" folder to backend "public" folder for integration between Vue.js and Spring Boot
 			
-			cp -R /customer_demo/frontend/dist /customer_demo/backend/src/main/resources/public
+			cp -R /customer_demo/frontend/dist/* /customer_demo/backend/src/main/resources/public
 			
 	NOTE This is an important step to combine the two frameworks together to work
 				
