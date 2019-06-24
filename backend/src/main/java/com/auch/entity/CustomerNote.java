@@ -1,6 +1,5 @@
 package com.auch.entity;
 
-import java.util.Date;
 import java.sql.Timestamp;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
