@@ -119,7 +119,7 @@ The following packages are required for building the app:
 		<version>1.0.0</version>
 
 			
-### 3. Frontend App Build (Optional)
+### 3. Frontend App Build
 
 	3.1 Build the frontend app with NPM
 			
